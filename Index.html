@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/Carrusel.css">
 </head>
 <body>
     
@@ -19,16 +22,17 @@
                     <a href="#" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Cobertura</a>
+                    <a href="#P1" class="nav__links">Cobertura</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Caracteristicas</a>
+                    <a href="#P2" class="nav__links">Caracteristicas</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="#P5" class="nav__links">Contacto</a>
                 </li>
+               
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Metodo de pago</a>
+                    <a href="index2.html" target="_blank" class="nav__links">Login</a>
                 </li>
 
 
@@ -41,39 +45,34 @@
         </nav>
 
         <section class="hero__container container">
-            <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
-            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
-                capaz de crear cualquier layout con CSS y crear tus propias animaciones.</p>
-            <a href="#" class="cta">Comienza ahora</a>
+            <h1 class="hero__title">SEGURO A DONDE SEA.</h1>
+            <p class="hero__paragraph">TAXIMARS es una aplicación para las personas que necesitan transportarse de manera segura y con calidad en los cantones de Santo Domingo</p>
+            <a href="index2.html" target="_blank" class="cta" > INGRESE</a>
         </section>
     </header>
 
     <main>
         <section class="container about">
-            <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
-            <p class="about__paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
-                Position, Animaciones, Box Model y más)</p>
+            <h2 id="P1"class="subtitle">Traslado en taxis desde la comodidad de tu casa</h2>
+            <p class="about__paragraph">Nuestro ultimatum es brindar un servicio de transporte desde el lugar donde se encuentre hasta su destino de llegada.</p>
 
             <div class="about__main">
                 <article class="about__icons">
-                    <img src="./images/shapes.svg" class="about__icon">
-                    <h3 class="about__title">CSS Layouts</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <img class="imagen" src="Imagenes/Info1.jpg" class="about__icon">
+                    <h3 class="about__title"> <a href="https://www.santodomingo.gob.ec/" target="_blank">Centro Santo Domingo</a></h3>
+                    <p class="about__paragrah">Lugar seguro para la visita de los turistas.</p>
                 </article>
 
                 <article class="about__icons">
-                    <img src="./images/paint.svg" class="about__icon">
-                    <h3 class="about__title">Animaciones</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <img class="imagen" src="Imagenes/Info2.jpg" class="about__icon">
+                    <h3  class="about__title"><a href="https://sites.google.com/site/santodomingodeloss/lugares-turisticos-de-santo-domingo/mirador-el-bomboli#:~:text=La%20Loma%20Bombol%C3%AD%20sirve%20para,Cisne%20y%20un%20parque%20municipal." target="_blank">Bomboli</a></h3>
+                    <p class="about__paragrah">Pueden viajar de manera rapida con la familia a visitar parte de la naturaleza y tranquilad del Bomboli.</p>
                 </article>
 
                 <article class="about__icons">
-                    <img src="./images/code.svg" class="about__icon">
-                    <h3 class="about__title">Sass</h3>
-                    <p class="about__paragrah">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae tempore
-                        porro eius facilis?</p>
+                    <img class="imagen" src="Imagenes/Info3.jpg" class="about__icon">
+                    <h3 class="about__title"> <a href="https://ec.viajandox.com/sto-domingo/parque-zaracay-A3008" target="_blank">Parque Central</a> </h3>
+                    <p class="about__paragrah">Ubicado en el centro de la cuidad frente al municipio de Santo Domingo.</p>
                 </article>
             </div>
         </section>
@@ -81,203 +80,193 @@
         <section class="knowledge">
             <div class="knowledge__container container">
                 <div class="knowledege__texts">
-                    <h2 class="subtitle">Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
-                    <a href="#" class="cta">Entra al curso</a>
+                    <h2 class="subtitle">Conductores capacitados para llevarte de manera segura.</h2>
+                    <p class="knowledge__paragraph">Todos los conductores cuentan con la licencia profesional tipo C.</p>
+                    <a href="#" class="cta">Garantizado nuestro servicio.</a>
                 </div>
 
                 <figure class="knowledge__picture">
-                    <img src="./images/macbook.png" class="knowledge__img">
+                    <img src="Imagenes/conductor1.jpg" class="knowledge__img">
                 </figure>
             </div>
         </section>
 
-        <section class="price container">
-            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
-
-            <div class="price__table">
-                <div class="price__element">
-                    <p class="price__name">Flexbox</p>
-                    <h3 class="price__price">Free</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Flexbox</p>
-                        <p class="price__features">Layouts</p>
-                        <p class="price__features">Responsive</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
+        <section class="servicios-container">
+            <h2 id="P2" >Caracteristicas</h2>
+            <div class="contenido-servicios">
+              <div class="servicio">
+                <i class="fa-thin fa-arrows-to-eye"><img src="imag/1.png" class="servicio-img" alt=""></i>
+                <h3>GPS Preciso</h3>
+                <p>El taxi llegará a tu destino sin pérdida de tiempo.</p>
+              </div>
+              <div class="servicio">
+                <i class="fa-solid fa-person-chalkboard"><img src="imag/2.png" class="servicio-img" alt=""></i>
+                <h3>Información del conductor</h3>
+                <p>Viaja seguro, datos completos del Taxi y Conductor.</p>
+              </div>
+              <div class="servicio">
+                <i class="fa-solid fa-person-chalkboard"><img src="imag/4.png" class="servicio-img" alt=""></i>
+                <h3>Registro fácil</h3>
+                <p>Solo necesitas tu número de teléfono para ingresar a la mejor APP para solicitar Taxi seguro.
+                </p>
+              </div>
+              <div class="servicio">
+                <i class="fa-solid fa-person-chalkboard"><img src="imag/3.png" class="servicio-img" alt=""></i>
+                <h3>Tiempo de llegada del taxi</h3>
+                <p>Administra mejor tu tiempo mientras tu taxi llega
+                </p>
                 </div>
-
-
-                <div class="price__element price__element--best">
-                    <p class="price__name">Grid</p>
-                    <h3 class="price__price">$30/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Grid</p>
-                        <p class="price__features">Implicit Grid</p>
-                        <p class="price__features">Responsive</p>
+                <div class="servicio">
+                    <i class="fa-solid fa-person-chalkboard"><img src="imag/5.png" class="servicio-img" alt=""></i>
+                    <h3>Tu taxi a un clic...</h3>
+                    <p>Ubica tu dirección en el mapa y solicita un taxi... listo!
+                    </p>
                     </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
-                <div class="price__element">
-                    <p class="price__name">Animaciones</p>
-                    <h3 class="price__price">$40/mes</h3>
-
-                    <div class="price__items">
-                        <p class="price__features">Animation</p>
-                        <p class="price__features">Transition</p>
-                        <p class="price__features">Render Website</p>
-                    </div>
-
-                    <a href="#" class="price__cta">Empieza ahora</a>
-                </div>
-
-
+                    <div class="servicio">
+                        <i class="fa-solid fa-person-chalkboard"><img src="imag/6.png" class="servicio-img" alt=""></i>
+                        <h3>Califica al conductor</h3>
+                        <p>Califica al conductor de acuerdo al servicio brindado
+                        </p>
+              </div>
             </div>
-        </section>
-
-        <section class="testimony">
-            <div class="testimony__container container">
-                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
-
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante
-                                de CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="2">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face2.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="3">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face3.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="4">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/face4.jpg" class="testimony__img">
-                    </figure>
-                </section>
-
-
-                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            <br>
+          </section>
+          <h2>Taxistas Capacitados en brindar este servicio</h2>
+          <div class="content-all">
+            <div class="content-carrousel">
+                <figure>puerto<img src="Imagenes/EMPLEADO2.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO1.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO3.jpg"></figure>
+                <figure><img src="Imagenes/EMPLEADO4.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO5.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO6.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO7.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO8.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO9.jfif"></figure>
+                <figure><img src="Imagenes/EMPLEADO10.jfif"></figure>
             </div>
-        </section>
-
-        <section class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
-
-            <section class="questions__container">
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+        </div>
+        <br><br><br><br><br>
+        <div id="P5" class="content">
+            <br><br>
+            <h1 class="logo"><span>Contact Us</span></h1>
+            <div class="contact-wrapper">
+            <div class="contact-form">
+            <h3>Contáctenos</h3>
+            <form action="" method="post" id="form">
+            <p><label>Nombres</label>
+            <input type="text" name="" id="name" required></p>
+            <p><label>Correo electrónico</label>
+            <input type="email" name="" id="email" required></p>
+            <p><label>Número de celular</label>
+            <input type="tel" name="" id="tel" required></p>
+            <p><label>Asunto</label>
+            <input type="text" name="affair" required ></p>
+            <p class="block"><label>Mensaje</label> 
+            <textarea name="message" rows="3"></textarea>
+            </p><p class="block">
+            <button type="submit">Enviar</button></p>
+            <p class ="warnings" id="warnings"></p>
+            </form>
+            </div>
+            <div class="contact-info">
+            <h4>Más información</h4>
+            <ul>
+            <li>Los Rosales</li>
+            <li>+59398475301</li>
+            <li>taximars@gmail.com</li>
+            </ul>
+            <p>Acercate a nuestras instalaciones</p>
+            <p>taximars.com</p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3989.781602712772!2d-79.18396208517045!3d-0.2458095354455694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x91d546399f720735%3A0xb8f817f91aac54e!2sLos%20Rosales%2C%20Santo%20Domingo!3m2!1d-0.24581489999999998!2d-79.1817734!5e0!3m2!1ses!2sec!4v1660522487734!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+           </div>
+            </div> 
+            <div class="automobil-recomendadas contenedor">
+                <h2>Servicios de TAXIMARS</h2>
+                <div class="contenedor-titulo-controles">
+                    <div class="indicadores"></div>
+                </div>
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+    
+                    <div class="contenedor-carousel">
+                        <div class="carousel">
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXI1.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXI2.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/Taxi3.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="#"><img class="imagen" src="Imagenes/taxi5.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi6.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi7.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi8.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi9.jpeg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi_10.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXIS4.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/Taxi3.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi7.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXI2.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="#"><img class="imagen" src="Imagenes/taxi6.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi_10.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXI1.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXIS4.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi7.jfif" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/TAXIS4.jpg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi9.jpeg" alt=""></a>
+                            </div>
+                            <div class="auto">
+                                <a href="https://api.whatsapp.com/send?phone=593985928414&text=Solicita%20tu%20Servicio" target="_blank"><img class="imagen" src="Imagenes/taxi8.jfif" alt=""></a>
+                            </div>
+                        </div>
                     </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué aprenderé en este curso?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-
-                <article class="questions__padding">
-                    <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS GRID?
-                            <span class="questions__arrow">
-                                <img src="./images/arrow.svg" class="questions__img">
-                            </span>
-                        </h3>
-
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
-                    </div>
-                </article>
-            </section>
-
-            <section class="questions__offer">
-                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
-                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
-                    eius atque tempora iure ab non autem.</p>
-                <a href="#" class="cta">Aprende ahora</a>
-            </section>
-        </section>
+                    <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+                </div>
+            </div>
+       
     </main>
 
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
-                <h2 class="footer__title">Curso CSS.</h2>
+                <h2 class="footer__title">TAXIMARS.</h2>
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
@@ -296,7 +285,7 @@
             </nav>
 
             <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <h2 class="footer__newsletter">Siguenos:</h2>
                 <div class="footer__inputs">
                     <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
                     <input type="submit" value="Registrate" class="footer__submit">
@@ -311,9 +300,10 @@
                 <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
             </div>
 
-            <h3 class="footer__copyright">Derechos reservados &copy; Jordan Alexander</h3>
+            <h3 class="footer__copyright">Derechos reservados ; Raul Faz, Steven Vargas, Nicolas Lara, Monica Jara.</h3>
         </section>
     </footer>
 
 </body>
 </html>
+<script src="java.js"></script>
